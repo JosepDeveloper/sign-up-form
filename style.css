@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.input {
+  @apply rounded-sm bg-slate-950 border-slate-800 focus:border-gray-500 focus:ring-1 focus:ring-gray-500 w-60 outline-none text-xs w-96 h-6 font-mono pl-2 flex items-center;
+}
+
+@tailwind utilities;

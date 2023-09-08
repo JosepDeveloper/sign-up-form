@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    
+    <link rel="shortcut icon" href="/assets/favicon-cc7a3629.svg" type="image/x-icon" />
+    <style>
+      .bg-image {
+        background-image: url("/assets/control-gaming-2696d834.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    </style>
+    <link rel="stylesheet" href="/assets/index-6df7c4fe.css">
+  </head>
+  <body class="h-screen w-screen flex font-sans text-white">
+    <div class="w-4/12 h-screen bg-image">
+      <div
+        class="bg-black w-4/12 bg-opacity-50 flex justify-center items-center gap-4 absolute top-20"
+      >
+        <img width="100" height="auto" src="/assets/logo-042bda76.svg" alt="Logo" />
+        Gaming
+      </div>
+    </div>
+    <div class="w-2/3 h-screen bg-slate-950 box-border">
+      <div class="mt-10 mx-7">
+        <p class="text-2xl font-medium">
+          This is not a real online service! Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now to
+          get started.
+        </p>
+        <p class="text-gray-400 text-xl pt-7">
+          You <span class="italic">know</span> you want to.
+        </p>
+      </div>
+      <div
+        class="w-full h-80 mt-8 bg-slate-900 py-4 px-7 shadow-[0_10px_15px_-3px_rgba(255,255,255,0.1)]"
+      >
+        <h3 class="text-xl font-bold">Let's do this!</h3>
+        <form
+          class="w-full h-full mt-6 flex flex-wrap gap-x-12 justify-between"
+          action="#"
+          method="post"
+        >
+          <div>
+            <label for="first_name">FIRST NAME</label>
+            <br />
+            <input class="input" type="text" id="first_name" />
+          </div>
+          <div>
+            <label for="last_name">LAST NAME</label>
+            <br />
+            <input class="input" type="text" id="last_name" />
+          </div>
+
+          <div>
+            <label for="email">EMAIL</label>
+            <br />
+            <input class="input" type="email" id="email" />
+          </div>
+
+          <div>
+            <label for="phone">PHONE</label>
+            <br />
+            <input class="input" type="text" id="phone" pattern="^\d{10}$" />
+          </div>
+          <div>
+            <label for="password">PASSWORD</label>
+            <br />
+            <input class="input" type="password" id="password" />
+          </div>
+          <div>
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <br />
+            <input class="input" type="password" id="confirm_password" />
+          </div>
+        </form>
+      </div>
+      <div>
+        <button
+          class="w-60 h-14 ml-10 mt-5 ring-2 rounded-md text-xl text-fuchsia-800 font-bold ring-fuchsia-950 hover:bg-fuchsia-950 hover:text-white transition-all"
+        >
+          Create Acount
+        </button>
+        <p class="mt-6 ml-10 text-gray-400">
+          Already have an account?
+          <a
+            href="#"
+            class="text-fuchsia-800 font-extrabold hover:text-white transition-all"
+            >Log in</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
